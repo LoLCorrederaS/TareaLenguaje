@@ -1,0 +1,61 @@
+
+.titulo{
+
+    color:#3d74b6 ;
+    
+}
+
+h1{
+
+    margin-left: 50%;
+
+}
+
+.subtitulo{
+
+    margin-left: 50%;
+    color: #c9caca;
+
+}
+
+.contenido{
+
+    border: 2px solid #f3f3f3;
+    background-color: #f3f3f3;
+    border-radius: 2%;
+    margin-bottom: 2%;
+}
+
+html{
+
+    background-color: #e9e9e9;
+
+}
+
+.destacado{
+
+    color: red;
+
+
+}
+
+.contenido1{
+
+        border: 2px solid #f3f3f3;
+    background-color: #f3f3f3;
+    border-radius: 2%;
+
+}
+
+.nota{
+    border: 1px solid #f3e8c3;
+    background-color: #f3e8c3;
+    padding: 1%;
+    border-radius: 4%;
+}
+
+footer{
+    color: #bcc0c2;
+    text-align: center;
+
+}
