@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 20: Landing Page SaaS</title>
+     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+
+<body class="antialiased text-slate-800 bg-white">
+
+    <div class="relative overflow-hidden">
+        
+        <nav class="relative z-50 w-full pt-6 px-6 md:px-12 flex justify-between items-center">
+            <div class="text-2xl font-bold tracking-tight">
+                <span class="text-blue-600">SaaS</span><span class="text-slate-900">Landing</span>
+            </div>
+
+            <div class="hidden md:flex space-x-8 text-sm font-medium text-slate-500">
+                <a href="#" class="hover:text-blue-600 transition">Producto</a>
+                <a href="#" class="hover:text-blue-600 transition">Características</a>
+                <a href="#" class="hover:text-blue-600 transition">Precios</a>
+            </div>
+
+            <div class="flex items-center gap-4">
+                <a href="#" class="hidden md:block text-sm font-medium text-slate-500 hover:text-slate-900">Login</a>
+                <a href="#" class="px-5 py-2.5 bg-slate-900 text-white text-sm font-medium rounded-lg hover:bg-slate-800 transition shadow-lg shadow-slate-900/20">
+                    Empezar Gratis
+                </a>
+            </div>
+        </nav>
+
+        <section class="relative pt-20 pb-32 lg:pt-32">
+            <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full h-full z-0 pointer-events-none">
+                <div class="absolute top-0 left-0 w-full h-[600px] bg-gradient-to-b from-blue-50 via-indigo-50/50 to-white"></div>
+            </div>
+
+            <div class="relative z-10 max-w-7xl mx-auto px-6 md:px-12 flex flex-col lg:flex-row items-center">
+                
+                <div class="lg:w-1/2 lg:pr-12 text-center lg:text-left mb-12 lg:mb-0">
+                    <h1 class="text-5xl md:text-6xl lg:text-7xl font-black text-slate-900 leading-[1.1] mb-6 tracking-tight">
+                        Construye tu <br> web <br>
+                        <span class="text-blue-600">más rápido.</span>
+                    </h1>
+                    <p class="text-lg text-slate-600 mb-8 leading-relaxed max-w-lg mx-auto lg:mx-0">
+                        Nuestra plataforma te ayuda a diseñar, construir y lanzar tus proyectos en tiempo récord con las mejores herramientas del mercado.
+                    </p>
+                    
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="#" class="px-8 py-4 bg-blue-600 text-white font-bold rounded-xl shadow-xl shadow-blue-600/20 hover:bg-blue-700 hover:-translate-y-1 transition-all duration-200">
+                            Probar Demo
+                        </a>
+                        <a href="#" class="px-8 py-4 bg-gray-100 text-slate-700 font-bold rounded-xl hover:bg-gray-200 transition-colors">
+                            Saber más
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:w-1/2 w-full perspective-1000">
+                    <div class="relative rounded-2xl bg-white border-4 border-white shadow-2xl shadow-blue-900/10 overflow-hidden transform hover:scale-[1.02] transition duration-500">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1600&q=80" 
+                             alt="Dashboard Analytics" 
+                             class="w-full h-auto object-cover">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </div>
+
+    <section class="py-20 bg-white">
+        <div class="max-w-7xl mx-auto px-6 md:px-12">
+            
+            <div class="text-center max-w-2xl mx-auto mb-20">
+                <h2 class="text-3xl font-bold text-slate-900 mb-4">Todo lo que necesitas</h2>
+                <p class="text-slate-500">Estas son algunas de las características que hacen que nuestra plataforma sea única.</p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 bg-blue-100 text-blue-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Ultra Rápido</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Cargas instantáneas y rendimiento optimizado para que no pierdas ni un solo cliente.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 bg-green-100 text-green-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Seguridad Total</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Tus datos y los de tus usuarios están protegidos con encriptación de grado militar.</p>
+                </div>
+
+                <div class="p-8 rounded-3xl bg-slate-50 border border-slate-100 hover:shadow-lg transition duration-300">
+                    <div class="w-12 h-12 bg-purple-100 text-purple-600 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Diseño Flexible</h3>
+                    <p class="text-slate-500 text-sm leading-relaxed">Adapta cada componente a tu marca con nuestro sistema de diseño modular.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
